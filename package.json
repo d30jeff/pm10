@@ -1,0 +1,11 @@
+{
+  "name": "pm10",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Deojeff Lai",
+  "repository": {
+    "url": ""
+  },
+  "license": "MIT",
+  "private": false
+}
