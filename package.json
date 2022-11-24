@@ -2,12 +2,12 @@
   "name": "pm10",
   "version": "1.0.0",
   "author": "Deojeff Lai",
-  "main": "dist/index.js",
+  "main": "lib/index.js",
   "scripts": {
     "build": "tsc",
     "dev": "yarn build && node ./lib/test/main.js"
   },
-  "types": "dist/index.d.ts",
+  "types": "lib/index.d.ts",
   "license": "MIT",
   "private": false,
   "devDependencies": {
