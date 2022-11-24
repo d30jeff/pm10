@@ -7,6 +7,10 @@
     "build": "tsc",
     "dev": "yarn build && node ./lib/test/main.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/d30jeff/pm10"
+  },
   "types": "lib/src/index.d.ts",
   "license": "MIT",
   "private": false,
