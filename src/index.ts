@@ -1,13 +1,13 @@
 type ConfigOptions = {
-  prefix: boolean;
+  showTitle: boolean;
 };
 
 export const pm10 = (args?: ConfigOptions) => {
-  let namePrefix = '';
+  let title = '';
   const name = 'Anwar bin Ibrahim';
-  if (args?.prefix) {
-    namePrefix = `Dato' Seri Haji`;
+  if (args?.showTitle) {
+    title = `Yang Amat Berhormat Dato' Seri Haji`;
   }
 
-  return [namePrefix, name].filter((n) => n).join(' ');
+  return [title, name].filter((n) => n).join(' ');
 };
