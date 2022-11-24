@@ -1,6 +1,6 @@
 {
   "name": "pm10",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "author": "Deojeff Lai",
   "main": "lib/src/index.js",
   "scripts": {
