@@ -11,17 +11,19 @@ Helper to show the name of the 10th Prime Minister of Malaysia
 ```
 import { pm10 } from 'pm10';
 
-console.info(pm10()); // Anwar bin Ibrahim
+console.info(pm10());
+// Anwar bin Ibrahim
 ```
 
 ### Options
 
-`prefix: (Boolean)`
+`showTitle: (Boolean)`
 
-Option to show/hide the title prefix, defaults to `false`
+Option to show/hide the title, defaults to `false`
 
 ```
 import { pm10 } from 'pm10';
 
-console.info(pm10({ prefix: true })); // Dato' Seri Haji Anwar bin Ibrahim
+console.info(pm10({ showTitle: true }));
+// Yang Amat Berhormat Dato' Seri Haji Anwar bin Ibrahim
 ```
