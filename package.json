@@ -1,6 +1,6 @@
 {
   "name": "pm10",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "author": "Deojeff Lai",
   "main": "lib/src/index.js",
   "scripts": {
@@ -11,6 +11,10 @@
     "type": "git",
     "url": "https://github.com/d30jeff/pm10"
   },
+  "keywords": [
+    "pm10",
+    "Malaysia"
+  ],
   "types": "lib/src/index.d.ts",
   "license": "MIT",
   "private": false,
